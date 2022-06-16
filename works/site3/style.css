@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+*{
+     font-family: 'Stardos Stencil', cursive;
+}
+
+
+body{
+    background-color: black;
+}
+/* NAVBAR STYLE */
+
+nav .nav-link{
+    color: balck;
+}
+nav{
+    background-color: white;
+}
+
+.land h1 , .land h2{
+    color: white;
+}
+.land{
+    height: 100vh;
+}
+
+
+/* HOTELS STYLES */
+
+.head-hotel{
+    color: white;
+}
+
+.title{
+    color: white;
+}
+
+.loc-hot{
+    color: white;
+}
+.hotels p{
+    color: white;
+}
+
+.imgs ,.imgs2 , .imgs3{
+    display: none;
+}
+
+
+.about-body h4 , .about-body h1{
+    color: black;
+}
+.about-body{
+    background-color: white;
+}
+
+.footer h3 ,.footer h1{
+    color: white;
+}
+.footer i{
+    font-size: 10vh;
+    color: white;
+}
+.our{
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        color: white;
+}

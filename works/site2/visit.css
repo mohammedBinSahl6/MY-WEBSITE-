@@ -1,0 +1,65 @@
+:root{
+    --c1--: #ffc802;
+    --c2-- :#8dad2d;
+
+}
+@media (max-width: 730px) {  
+    
+    body{
+        width: 81vh;
+    }
+    form{
+        width: 55vh;
+    }
+    .visit-body{
+        width: 81vh;
+    }
+    nav{
+        width: 100%;
+    }
+    #navbar-brand{
+        font-size: 4vh;
+    }
+    #visit-head{
+        font-size: 7vh;
+    }
+    footer{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.head-visit{
+    font-size: 12vh;
+    font-weight: 700;
+    color: var(--c1--);
+    text-shadow: brown 2px 2px 2px;
+
+}
+
+.visit-body p{
+    color: brown;
+    font-size: 3vh;
+    letter-spacing: 2px;
+}
+
+form {
+    border: 1px var(--c2--) solid;
+    padding: 20px;
+
+}
+
+.footer{
+    background-color: var(--c1--);
+}
+
+.footer i{
+    font-size: 7vh;
+}
+.footer .navbar-nav{
+    flex-direction: row-reverse;
+}
+
+footer li{
+    padding: 20px;
+}

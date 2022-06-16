@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+     font-family: 'Satisfy', cursive;
+}
+:root{
+    --c-- :#7d6445;
+}
+
+body{
+    background-image: url(imgs/body.jpg);
+    background-size: cover;
+}
+
+/* styling the main page */
+.header {
+    background-image: url(imgs/header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.head{
+    color: white;
+}
+
+nav{
+    background-color: #7d64452b;
+    
+}
+
+nav h1, nav .nav-link{
+    color: white;
+}
+
+.header h3{
+    color: white;
+}
+
+
+/* about section */
+
+.about-body{
+    background-color: white; 
+}
+
+.aboutus{
+    color: #7d6445;
+}
+
+.about-text{
+    color: #7d6445;
+}
+
+.x{
+    height: 80vh;
+}
+
+/* coffee section  */
+
+.coffee-body h1 , .coc h1{
+    color: #7d6445;
+}
+.coffee-text{
+    color: #7d6445;
+    font-size: 3vh;
+}
+
+.coc{
+    background-color: white;
+}
+
+
+/* menu style */
+
+.menu-body{
+    background-color: wheat;
+}
+
+.menu-head{
+    color: #7d6445;
+}
+
+/* contact style */
+
+.contact-head{
+    color: white;
+}
+
+
+/* footer style */
+
+.footer{
+    background-color: #7d6445;
+}
+
+.footer i {
+    color: wheat;
+    font-size: 5vh;
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root{
+    --color1-- : #3386e9;
+    --color2-- :#6feceb;
+
+}
+
+
+*{
+    font-family: 'Share Tech Mono';
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    
+    background-image: linear-gradient(to right , var(--color1--) , var(--color2--) );
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+    transition: 0.4s;
+   
+}
+
+/* navbar */
+nav .rounded-pill{
+    width: 50px;
+
+}
+
+
+/* style the picture section */
+.oics{
+    background-image: url(imgs/coding_bg_grey.jpg);
+    background-size: cover;
+}
+
+.oics h2 , .oics h1 , .oics p{
+    color: white;
+
+}
+.oics p{
+    text-transform: capitalize;
+}
+
+/* style info place */
+
+.info-web{
+    background-image: url(imgs/BG_WEB_LTRS.jpg);
+    background-size: cover;
+}
+
+.info-web h1{
+    font-weight: 600;
+
+}
+.hd1 , .hd2 , .hd3{
+    color: white;
+
+}
+.p1 , .p2 , .p3{
+    display: none;
+}
+
+
+/* styling the about headers and about body*/
+
+.WEB-DEV{
+    color: black;
+    font-weight: 700;
+    
+}
+.MYNAME{
+    font-weight: 700;
+   
+    background: -webkit-linear-gradient(  45deg,#3386e9, #6feceb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    
+}
+ 
+.about-body{
+
+    border: grey 1px solid;
+    box-shadow: black 3px 2px 1px  ;
+    display: none;
+    background-size: cover;
+  
+}
+.about-body p{
+    color: black;
+    text-transform: capitalize;
+}
+/*footer styling*/
+
+.footer{
+    background-color: var(--color1--);
+ 
+}
+.so-media i{
+    color: white;
+    transition: 0.4s;
+    font-size: 6vh;
+}
+.so-media i:hover{
+    color: var(--color2--);
+}
+
+
+/* WORKS PAGE STYLING -----------------------------------------------------------------*/
+
+.pro-header{
+    font-weight: 700;
+   
+    background: -webkit-linear-gradient(  45deg,#3386e9, #6feceb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #body-page-works{
+      background-image: url(imgs/colored_logo.jpg);
+      background-size: cover;
+  }
+  .head{
+      background-color: white;
+  }
+
+
+  /* here styling the blogs html css js*/
+
+  .HTML-SEC{
+      border-radius: 5px;
+      border: 1px solid black;
+  }
+
+  .CSS-SEC{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.JS-SEC{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.top-html h1 {
+    color: #3386e9;
+}
+
+.body-html{
+    background-color: #3386e9;
+
+}
+.body-html p{
+    color: white;
+}
+
+.top-css h1 {
+    color: var(--color1--);
+}
+
+
+
+
+.body-css{
+    background-color: var(--color1--);
+
+}
+.body-css p{
+    color: white;
+}
+
+.top-js h1 {
+    color: #3386e9;
+}
+
+.body-js{
+    background-color: #3386e9;
+
+}
+.body-js p{
+    color: white;
+}
+
+
+/* styling  the blogs*/
+
+.w1{
+    color: #3386e9;
+}
+
+.w2{
+    color: var(--color1--);
+}
+
+.study-b p {
+
+    font-size: 3vh;
+
+}
+
+/* the best sites elemnts styling*/
+
+
+.site{
+    border: 1px black solid;
+    border-radius: 3px;
+    margin: 5px 10px;
+    padding: 5px;
+}
+.site h3{
+    color: white;
+}
+
+
+
+
+/* STYLING CREATE PAGE--------------------------------------------- */
+
+#BODY-CREATE {
+    background: -webkit-linear-gradient(var(--color1--),var(--color2--));
+}
+
+.resp h1{
+font-weight: 500;
+    background: -webkit-linear-gradient(  black, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

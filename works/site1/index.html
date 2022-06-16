@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHA</title>
+    <script src="https://kit.fontawesome.com/05ec22700b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styling_maha.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light  justify-content-center ">
+        <div class="container-fluid ps-20">
+            <a class="navbar-brand" href="index.html" id="x1" >
+                <img src="imgs/mahalog-01.png" alt="logo" class="" style="width:90px ;" id="x1">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop_page.html" target="_blank">MY SHOP</a></li>
+                <li class="nav-item"><a class="nav-link" href="#foot">CONTACT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aboutt">ABOUT ME</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--offcanvas start (comments side)-->
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offanvas-title text-center">ASK ME ?</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h4>ANY QUESTION ON YOUR HEAD?</h4>
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="comment">Comments:</label>
+                  <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-warining" data-bs-toggle="offcanvas" data-bs-target="#demo" id="btn-comment"><i class="fa-solid fa-comment-dots" id="co-lo"></i></button>
+    <!--end of offanvas-->
+  
+    <div class="container mt-5 p-3 ">
+        <div class="row">
+            <h1 class="display-1 text-center about-head">ABOUT ME </h1>
+            <div class="row mt-3 p-3 about-body">
+                <div class="col">
+                    <img src="imgs/maha.png"class='img-thumbnail'id='aboutt' alt="pic">
+
+                </div>
+                <div class="col-6">
+                    <h1 class="h1 gra">GRAPHIC DESIGNER</h1>
+                    <p>Graphic designer  Specialized in designing logos and visual identity Helping you in developing yourself and marketing for your account </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <h1 class="display-2 text-center shop-head">TAKE A LOOK MY SERVICES</h1>
+        </div>
+        <div class="row p-3 container shop-row">
+            <div class="col " id="col1">
+                <div class="card">
+                    <img class="card-img-top" src="imgs/prodect.png">
+                    <div class="card-body">
+                        <h4 class="card-title">prodect</h4>
+                        <p class="card-text">our prodect from maha bin sahl</p>
+                        <a class="btn btn-danger" href="#">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="col2">
+                <div class="card">
+                    <img class="card-img-top" src="imgs/prodect.png">
+                    <div class="card-body">
+                        <h4 class="card-title">prodect</h4>
+                        <p class="card-text">our prodect from maha bin sahl</p>
+                        <a class="btn btn-danger" href="#">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="col3"> 
+                <div class="card">
+                <img class="card-img-top" src="imgs/prodect.png">
+                <div class="card-body">
+                    <h4 class="card-title">prodect</h4>
+                    <p class="card-text">our prodect from maha bin sahl</p>
+                    <a class="btn btn-danger" href="#">BUY</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn btn-outline-dark btn-block" href="shop_page.html">SEE MORE PROCDUCT...</a>
+        </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        
+    </div>
+
+    <footer id="foot">
+        <div class="mt-5 p-3 footer">
+           <div class="row p-3  ">
+            <div class="col-6">
+                <h1 class="display-3">MAHA BIN SAHL</h1>
+                <h2 class="h2">GRAPHIC DESIGN</h2>
+            </div>
+            <div class="col p-3">
+                
+                <div class="row">  <a href="https://www.instagram.com/maha_binsahl/"><i class="fa-brands fa-instagram " id="contact-logo"></i></a></div>
+                <div class="row"><a href="https://twitter.com/Maha_BinSahl"><i class="fa-brands fa-twitter" id="contact-logo"></i></a></div>
+                <div class="row"> <a href="https://www.tiktok.com/@maha_binsahl"><i class="fa-brands fa-tiktok" id="contact-logo"></i></a></div>
+                <div class="row"><a href="https://www.youtube.com/channel/UCw-m0Lz_GXSZ6Mw-T07ASbA"><i class="fa-brands fa-youtube" id="contact-logo"></i></a></div>
+                <div class="row"> <a href=""><i class="fa-brands fa-telegram" id="contact-logo"></i></a></div>
+            </div>
+            <div class="col">
+                <h3 class="h3">CONTACT</h3>
+                <p>+201501567785</p>
+                <p>x.mxdbs@gmail.com</p>
+                <br>
+                <hr>
+                <br>
+                <p>Graphic designer  Specialized in designing logos and visual identity Helping you in developing yourself and marketing for your account </p>
+                
+            </div>
+           </div>
+           <div class="row"><strong>@2022 , BY MOHAMMED BIN SAHL</strong></div>
+        </div>
+    </footer>
+                  
+
+    <script src="main.js"></script>
+</body>
+</html>

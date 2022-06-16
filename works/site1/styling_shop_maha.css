@@ -1,0 +1,37 @@
+:root{
+    --c1--:rgb(210 173 180);
+    --c2--:rgb(134 37 118);
+    --c3--:rgb(171 38 103);
+    --c4--:rgb(237 215 204);
+}
+*{
+    font-family: 'cairo';
+}
+body{
+    background-color: var(--c4--);
+}
+
+#cart-logo{
+    font-size: 30px;
+    color: var(--c3--);
+}
+
+.cart_count{
+    font-size: 12px;
+}
+
+.shop-body .col{
+    margin: 4vh 0;
+}
+
+
+
+
+/*footer*/
+.footer a i{
+    color: var(--c2--);
+    text-align: center;
+    font-size: 7vh;
+    margin:3vh 0;
+}
+

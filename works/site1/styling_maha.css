@@ -1,0 +1,81 @@
+/*navbar*/
+:root{
+    --c1--:rgb(210 173 180);
+    --c2--:rgb(134 37 118);
+    --c3--:rgb(171 38 103);
+    --c4--:rgb(237 215 204);
+}
+
+body{
+    background-color: var(--c1--);
+}
+.navbar-nav .nav-link{
+    border-radius:20px ;
+}
+.navbar-nav .nav-link:hover{
+    background:var(--c2--) ;
+    color: var(--c4--)!; 
+
+}
+nav {
+    justify-content: center;
+}
+
+/*styling  about section */
+
+.about-body {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.about-body p{
+    font-weight: 500;
+}
+
+.gra{
+    color: var(--c2--);
+}
+
+/*styling the shop*/
+
+.shop-head{
+    font-weight: 700;
+    background: -webkit-linear-gradient(var(--c2--),var(--c3--));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.shop-row .col{
+    margin: 10px 0;
+}
+
+
+/*footer*/
+.footer a i{
+    color: var(--c2--);
+    text-align: center;
+    font-size: 7vh;
+    margin:3vh 0;
+}
+
+
+/*OFFCANVAS*/
+.offcanvas-header , .offcanvas-body{
+    background-color: var(--c3--);
+}
+
+#co-lo{
+    color: var(--c3--);
+    position: fixed;
+    left: 70%;
+    top: 81%;
+    z-index: 999;
+    font-size: 8vh
+}
+
+#remove-btn{
+    background-color: aqua;
+}

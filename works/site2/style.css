@@ -1,0 +1,70 @@
+:root{
+    --c1--: #ffc802;
+    --c2-- :#8dad2d;
+
+}
+::selection{
+    background-color: #8dad2d;
+    color: brown;
+}
+
+/*navbar styling*/
+
+nav {
+    background-color: var(--c2--);
+}
+
+nav a , nav .navbar-brand , nav .navbar-toggler .navbar-toggler-icon  {
+    
+    color: black;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+
+/*styling the about section*/
+
+.about{
+    border-radius: 4px;
+
+    background-color: #8dad2d;
+    box-shadow: brown 3px 2px 5px;
+}
+.about-p{
+    font-size: 2vh;
+}
+
+#visit-btn{
+
+    background-color: #ffc802;
+    color: black;
+    transition: 0.4s;
+}
+#visit-btn:hover{
+    background-color: transparent;
+    color: #ffc802;
+
+}
+
+
+/*visit page---------------------------------------------*/
+
+#visit-head{
+    font-weight: 900;
+    background: -webkit-linear-gradient(  45deg,var(--c1--),var(--c2--));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/*footer*/
+.footer{
+    background-color: #8dad2d;
+
+}
+.footer i {
+    font-size: 8vh;
+    color: white;
+}
+
