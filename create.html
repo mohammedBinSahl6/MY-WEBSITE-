@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="styling_index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" href="imgs/colored_logo.jpg">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
 <body id="BODY-CREATE">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -51,8 +52,8 @@
               <h1 class="display-1 text-center">RESPONSIVE WEBSITE !</h1>
           </div>
           <br>
-          <div class="row">
-              <img src="imgs/responsive.jpg" alt="res" class="img-thumbnail">
+          <div class="row" >
+              <img src="imgs/responsive.jpg" alt="res"  class="img-thumbnail">
           </div>
           <br>
           <hr>
@@ -63,19 +64,19 @@
           </div>
           <div class="row">
               <form >
-                  <div class="mt-3 mb-3">
+                  <div data-aos="fade-up"  class="mt-3 mb-3">
                       <label for="name" class="form-label">YOUR NAME/COMPANY/BRAND</label>
-                      <input class="form-control" type="text" placeholder="myname" id="name">
+                      <input class="form-control" type="text" placeholder="myname" id="name" >
                   </div>
-                  <div class=" mb-3">
+                  <div data-aos="fade-up" class=" mb-3">
                     <label for="email" class="form-label">YOUR EMAIL</label>
                     <input class="form-control" type="email" placeholder="example@info.com" id="email">
                 </div>
-                <div class=" mb-3">
+                <div data-aos="fade-up" class=" mb-3">
                     <label for="add" class="form-label">WEBSITE/TEMPLATE YOU WANT LIKE IT </label>
                     <input class="form-control" type="url" placeholder="add the link of the website/template" id="add">
                 </div>
-                <div class="mb-3 ">
+                <div data-aos="fade-up" class="mb-3 ">
                   <textarea rows="5" placeholder="Describe Your website " class="form-control"></textarea>
                 </div>
 
@@ -91,8 +92,8 @@
                     <input type="radio" class="form-check-input" >
                     <label class="form-check-label">STORE</label>
                   </div>
-                    <button class="btn btn-outline-primary" type="reset">RESET</button>
-                    <button class="btn btn-primary" type="submit">SUBMIT</button>
+                    <button data-aos="fade-right" class="btn btn-outline-primary" type="reset">RESET</button>
+                    <button data-aos="fade-left" class="btn btn-primary" type="submit">SUBMIT</button>
 
 
 
@@ -122,6 +123,10 @@
           </div>
         </div>
       </footer>
-
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  
 </body>
 </html>

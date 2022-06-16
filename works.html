@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styling_index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" href="imgs/colored_logo.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 
 </head>
 <body id="body-page-works">
@@ -55,14 +57,14 @@
 
           <div class="row">
             <div class="col">
-              <h1 class="display-1 text-center">MY WORKS</h1>
+              <h1 class="display-1 text-center" data-aos="zoom-in" data-aos-duration="1200">MY WORKS</h1>
             </div>
         
           </div>
         
           <div class="row">
             <div class="col">
-              <div class="card">
+              <div class="card" data-aos="fade-right">
                 <img class="card-img-top" src="imgs/site1.png">
                 <div class="card-body">
                  <h3 class="card-title">WEBSITE #1</h3>
@@ -72,7 +74,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img class="card-img-top" src="imgs/site2.jpg">
                 <div class="card-body">
                  <h3 class="card-title">WEBSITE #2</h3>
@@ -82,7 +84,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" data-aos="fade-right">
                 <img class="card-img-top" src="imgs/site3.png">
                 <div class="card-body">
                  <h3 class="card-title">WEBSITE #3</h3>
@@ -92,7 +94,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img class="card-img-top" src="imgs/site4.png">
                 <div class="card-body">
                  <h3 class="card-title">WEBSITE #4</h3>
@@ -199,15 +201,15 @@
          <br>
          <br>
           <div class="row gx-5">
-              <div class="col site">
+              <div class="col site" data-aos="zoom-in" data-aos-duration="890">
                   <h3 class="h3 text-center"> W3SCHOOLS</h3>
                 <a type="button" class="btn btn-info btn-block" href="https://www.w3schools.com/default.asp">VISIT</a>
             </div>
-            <div class="col site">
+            <div class="col site" data-aos="zoom-in" data-aos-duration="890">
                 <h3 class="h3 text-center">FreeCodeCamp</h3>
               <a type="button" class="btn btn-info btn-block" href="https://www.freecodecamp.org/news">VISIT</a>
           </div>
-          <div class="col site">
+          <div class="col site" data-aos="zoom-in" data-aos-duration="890">
             <h3 class="h3 text-center">UDEMY</h3>
           <a type="button" class="btn btn-info btn-block" href="https://www.udemy.com/">VISIT</a>
       </div>
@@ -276,6 +278,9 @@
         </div>
       </footer>
 
-    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
