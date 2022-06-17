@@ -22,7 +22,7 @@ body{
 }
 
 .shop-body .col{
-    margin: 4vh 0;
+    margin: 4vh ;
 }
 
 
@@ -30,6 +30,7 @@ body{
     transition: 0.6s;
 
 }
+
 
 .card-img-overlay {
     background-color: white;
@@ -42,13 +43,16 @@ body{
 display: block;
 }
 
+.smp{
+     top: 25px; /* for social media posts card */
+}
 
 
 /*footer*/
 .footer a i{
     color: var(--c2--);
     text-align: center;
-    font-size: 7vh;
+    font-size: 3vh;
     margin:3vh 0;
 }
 

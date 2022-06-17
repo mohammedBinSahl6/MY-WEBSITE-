@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styling_maha.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body>
@@ -54,15 +55,19 @@
   
     <div class="container mt-5 p-3 ">
         <div class="row">
-            <h1 class="display-1 text-center about-head">ABOUT ME </h1>
-            <div class="row mt-3 p-3 about-body">
+            <h1 class="display-1 text-center about-head" data-aos="zoom-in" data-aos-duration="500">ABOUT ME </h1>
+            <div class="row mt-3 p-3 about-body" data-aos="fade-up">
                 <div class="col">
-                    <img src="imgs/maha.png"class='img-thumbnail'id='aboutt' alt="pic">
+                    <img data-aos="fade-up-right" src="imgs/maha.png"class='img-thumbnail'id='aboutt' alt="pic" style="width:30vh;">
 
                 </div>
-                <div class="col-6">
-                    <h1 class="h1 gra">GRAPHIC DESIGNER</h1>
-                    <p>Graphic designer  Specialized in designing logos and visual identity Helping you in developing yourself and marketing for your account </p>
+                <div class="col">
+                    <h1 data-aos="fade-up" class="h1 maha">MAHA BIN SAHL</h1>
+                    <h4 data-aos="fade-up" class="h4 gra">GRAPHIC DESIGNER</h4>
+                </div>
+                <div class="row mt-5 p-3">
+                    <p data-aos="fade-left"> <i class="fa-solid fa-palette"></i>Graphic designer  Specialized in designing logos and visual identity Helping you in developing yourself and marketing for your account </p>
+
                 </div>
             </div>
             <hr>
@@ -71,38 +76,49 @@
         <br>
 
         <div class="row">
-            <h1 class="display-2 text-center shop-head">TAKE A LOOK MY SERVICES</h1>
+            <h1 class="display-2 text-center shop-head" data-aos="zoom-in-up">TAKE A LOOK MY SERVICES</h1>
         </div>
         <div class="row p-3 container shop-row">
-            <div class="col " id="col1">
-                <div class="card">
-                    <img class="card-img-top" src="imgs/prodect.png">
-                    <div class="card-body">
-                        <h4 class="card-title">prodect</h4>
-                        <p class="card-text">our prodect from maha bin sahl</p>
-                        <a class="btn btn-danger" href="#">BUY</a>
-                    </div>
+            
+                <div class="col">
+                    <div data-aos="flip-left" class="card" style="width:35vh">
+                        <img class="card-img-top" src="imgs/logo-card.png" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h4 class="card-title" id="tp-1">DESGIIN LOGO</h4>
+                          <p class="card-text">Some example text.</p>
+                          <p class="card-text" id="pp-1" >$90</p>
+                          <a class="btn btn-dark" id="buybtn1">ADD TO CART</a>
+                        </div>
+                      </div>
                 </div>
-            </div>
-            <div class="col" id="col2">
-                <div class="card">
-                    <img class="card-img-top" src="imgs/prodect.png">
-                    <div class="card-body">
-                        <h4 class="card-title">prodect</h4>
-                        <p class="card-text">our prodect from maha bin sahl</p>
-                        <a class="btn btn-danger" href="#">BUY</a>
-                    </div>
+
+                <div class="col">
+                    <div data-aos="flip-right" class="card" style="width:35vh">
+                        <img class="card-img-top" src="imgs/banner-card.png" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h4 class="card-title" id="tp-2">BANNER</h4>
+                          <p class="card-text">Some example text.</p>
+                          <p class="card-text " id="pp-2">$45</p>
+                          <a  class="btn btn-dark" id="buybtn2">ADD TO CART</a>
+                        </div>
+                      </div>
                 </div>
-            </div>
-            <div class="col" id="col3"> 
-                <div class="card">
-                <img class="card-img-top" src="imgs/prodect.png">
-                <div class="card-body">
-                    <h4 class="card-title">prodect</h4>
-                    <p class="card-text">our prodect from maha bin sahl</p>
-                    <a class="btn btn-danger" href="#">BUY</a>
+
+                
+
+                <div class="col">
+                    <div data-aos="flip-left" class="card" style="width:35vh">
+                        <img class="card-img-top" src="imgs/tshirt-card.png" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h4 class="card-title" id="tp-3">T-SHIRT</h4>
+                          <p class="card-text">Some example text.</p>
+                          <p class="card-text" id="tp-3">$90</p>
+                          <a data-aos="flip-left" class="btn btn-dark" id="buybtn3">ADD TO CART</a>
+                        </div>
+                      </div>
                 </div>
-            </div>
+       
+
         </div>
         <div class="row">
             <a class="btn btn-outline-dark btn-block" href="shop_page.html">SEE MORE PROCDUCT...</a>
@@ -114,21 +130,14 @@
         
     </div>
 
-    <footer id="foot">
+    <footer>
         <div class="mt-5 p-3 footer">
            <div class="row p-3  ">
             <div class="col-6">
                 <h1 class="display-3">MAHA BIN SAHL</h1>
                 <h2 class="h2">GRAPHIC DESIGN</h2>
             </div>
-            <div class="col p-3">
-                
-                <div class="row">  <a href="https://www.instagram.com/maha_binsahl/"><i class="fa-brands fa-instagram " id="contact-logo"></i></a></div>
-                <div class="row"><a href="https://twitter.com/Maha_BinSahl"><i class="fa-brands fa-twitter" id="contact-logo"></i></a></div>
-                <div class="row"> <a href="https://www.tiktok.com/@maha_binsahl"><i class="fa-brands fa-tiktok" id="contact-logo"></i></a></div>
-                <div class="row"><a href="https://www.youtube.com/channel/UCw-m0Lz_GXSZ6Mw-T07ASbA"><i class="fa-brands fa-youtube" id="contact-logo"></i></a></div>
-                <div class="row"> <a href=""><i class="fa-brands fa-telegram" id="contact-logo"></i></a></div>
-            </div>
+          
             <div class="col">
                 <h3 class="h3">CONTACT</h3>
                 <p>+201501567785</p>
@@ -138,13 +147,27 @@
                 <br>
                 <p>Graphic designer  Specialized in designing logos and visual identity Helping you in developing yourself and marketing for your account </p>
                 
-            </div>
+            </div> 
+            <br>
            </div>
+           <div class="row p-3">
+                
+            <div class="col">  <a href="https://www.instagram.com/maha_binsahl/"><i class="fa-brands fa-instagram " id="contact-logo"></i></a></div>
+            <div class="col"><a href="https://twitter.com/Maha_BinSahl"><i class="fa-brands fa-twitter" id="contact-logo"></i></a></div>
+            <div class="col"> <a href="https://www.tiktok.com/@maha_binsahl"><i class="fa-brands fa-tiktok" id="contact-logo"></i></a></div>
+            <div class="col"><a href="https://www.youtube.com/channel/UCw-m0Lz_GXSZ6Mw-T07ASbA"><i class="fa-brands fa-youtube" id="contact-logo"></i></a></div>
+            <div class="col"> <a href=""><i class="fa-brands fa-telegram" id="contact-logo"></i></a></div>
+        </div>
+        <br>
            <div class="row"><strong>@2022 , BY MOHAMMED BIN SAHL</strong></div>
         </div>
     </footer>
                   
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

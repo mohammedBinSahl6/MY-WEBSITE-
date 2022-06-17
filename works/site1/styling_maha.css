@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: var(--c1--);
+    background-image: url(imgs/body.png);
+    background-size: cover;
 }
 .navbar-nav .nav-link{
     border-radius:20px ;
@@ -29,9 +30,27 @@ nav {
 }
 
 .about-body p{
-    font-weight: 500;
+    color: var(--c1--);
+    text-transform: capitalize;
+    font-size: 3vh;
 }
 
+.about-body p i{
+    font-size: 4vh;
+    margin-right: 2vh;
+}
+
+.about-head{
+    font-weight: 600;
+    background: -webkit-linear-gradient(var(--c2--),var(--c4--));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.maha{
+    color: var(--c3--);
+    font-weight: 600;
+}
 .gra{
     color: var(--c2--);
 }
@@ -48,18 +67,25 @@ nav {
 }
 
 
-.shop-row .col{
-    margin: 10px 0;
+.card-img-overlay {
+    background-color: white;
+    transition: 0.6s;
+    top: 50px;
+    display: none;
+  
 }
-
+.card:hover .card-img-overlay {
+display: block;
+}
 
 /*footer*/
 .footer a i{
     color: var(--c2--);
     text-align: center;
-    font-size: 7vh;
+    font-size: 3vh;
     margin:3vh 0;
 }
+
 
 
 /*OFFCANVAS*/
