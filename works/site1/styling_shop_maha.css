@@ -7,7 +7,7 @@
 }
 *{
     font-family: 'Cairo', sans-serif;
-    font-family: 'Share Tech Mono', monospace;
+ 
 }
 body{
     background-image: url(imgs/body.png);
@@ -55,6 +55,17 @@ display: block;
     color: var(--c2--);
     text-align: center;
     font-size: 3vh;
-    margin:3vh 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    
+}
+.footer a {
+    text-decoration: none;
+    
+}
+
+.footer .sm{
+    text-align: center;
 }
 
