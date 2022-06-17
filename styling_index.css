@@ -10,6 +10,10 @@
 *{
     font-family: 'Share Tech Mono';
 }
+
+body{
+    background: -webkit-linear-gradient(var(--color1--),var(--color2--));
+}
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,7 +29,8 @@ p{
 
 /* navbar */
 nav .rounded-pill{
-    width: 50px;
+    width: 60px;
+    border-radius: 60px;
 
 }
 
@@ -44,24 +49,7 @@ nav .rounded-pill{
     text-transform: capitalize;
 }
 
-/* style info place */
 
-.info-web{
-    background-image: url(imgs/BG_WEB_LTRS.jpg);
-    background-size: cover;
-}
-
-.info-web h1{
-    font-weight: 600;
-
-}
-.hd1 , .hd2 , .hd3{
-    color: white;
-
-}
-.p1 , .p2 , .p3{
-    display: none;
-}
 
 
 /* styling the about headers and about body*/
@@ -95,6 +83,9 @@ nav .rounded-pill{
     color: black;
     text-transform: capitalize;
 }
+#about  h1 {
+    color: white;
+}
 /*footer styling*/
 
 .footer{
@@ -121,87 +112,15 @@ nav .rounded-pill{
     -webkit-text-fill-color: transparent;
   }
 
-  #body-page-works{
-      background-image: url(imgs/colored_logo.jpg);
-      background-size: cover;
-  }
+ 
+  
   .head{
       background-color: white;
   }
 
 
-  /* here styling the blogs html css js*/
-
-  .HTML-SEC{
-      border-radius: 5px;
-      border: 1px solid black;
-  }
-
-  .CSS-SEC{
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-.JS-SEC{
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-.top-html h1 {
-    color: #3386e9;
-}
-
-.body-html{
-    background-color: #3386e9;
-
-}
-.body-html p{
-    color: white;
-}
-
-.top-css h1 {
-    color: var(--color1--);
-}
 
 
-
-
-.body-css{
-    background-color: var(--color1--);
-
-}
-.body-css p{
-    color: white;
-}
-
-.top-js h1 {
-    color: #3386e9;
-}
-
-.body-js{
-    background-color: #3386e9;
-
-}
-.body-js p{
-    color: white;
-}
-
-
-/* styling  the blogs*/
-
-.w1{
-    color: #3386e9;
-}
-
-.w2{
-    color: var(--color1--);
-}
-
-.study-b p {
-
-    font-size: 3vh;
-
-}
 
 /* the best sites elemnts styling*/
 
@@ -213,7 +132,7 @@ nav .rounded-pill{
     padding: 5px;
 }
 .site h3{
-    color: white;
+    color: black;
 }
 
 
@@ -230,5 +149,42 @@ font-weight: 500;
     background: -webkit-linear-gradient(  black, grey);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+}
+
+
+
+/* STYLING THE TOPICS PAGES---------------------------------------- */
+
+/* style info place */
+
+
+
+.info-web h1{
+    font-weight: 600;
+
+}
+.hd1 , .hd2 , .hd3{
+    color: white;
+
+}
+.p1 , .p2 , .p3{
+    display: none;
+}
+
+
+/* styling  the blogs*/
+
+.w1{
+    color: white;
+}
+
+.w2{
+    color: white;
+}
+
+.study-b p {
+
+    font-size: 3vh;
 
 }
