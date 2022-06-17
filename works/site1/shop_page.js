@@ -45,9 +45,9 @@ $(document).ready(function(){
     });
 
 
+    //for hover on the product
 
-
-
+    
 
 
 

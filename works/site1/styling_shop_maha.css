@@ -8,7 +8,8 @@
     font-family: 'cairo';
 }
 body{
-    background-color: var(--c4--);
+    background-image: url(imgs/body.png);
+    background-size: cover;
 }
 
 #cart-logo{
@@ -24,6 +25,22 @@ body{
     margin: 4vh 0;
 }
 
+
+.card{
+    transition: 0.6s;
+
+}
+
+.card-img-overlay {
+    background-color: white;
+    transition: 0.6s;
+    top: 50px;
+    display: none;
+  
+}
+.card:hover .card-img-overlay {
+display: block;
+}
 
 
 
