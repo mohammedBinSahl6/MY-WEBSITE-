@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Share+Tech+Mono&display=swap');
 /*navbar*/
 :root{
     --c1--:rgb(210 173 180);
@@ -5,7 +6,10 @@
     --c3--:rgb(171 38 103);
     --c4--:rgb(237 215 204);
 }
-
+*{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+}
 body{
     background-image: url(imgs/body.png);
     background-size: cover;
@@ -42,7 +46,7 @@ nav {
 
 .about-head{
     font-weight: 600;
-    background: -webkit-linear-gradient(var(--c2--),var(--c4--));
+    background: -webkit-linear-gradient(var(--c2--),var(--c3--));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -64,6 +68,10 @@ nav {
     -webkit-text-fill-color: transparent;
 
 
+}
+
+.shop-row .col{
+    margin-top: 2vh;
 }
 
 

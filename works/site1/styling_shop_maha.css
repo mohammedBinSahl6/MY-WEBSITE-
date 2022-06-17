@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Share+Tech+Mono&display=swap');
 :root{
     --c1--:rgb(210 173 180);
     --c2--:rgb(134 37 118);
@@ -5,7 +6,8 @@
     --c4--:rgb(237 215 204);
 }
 *{
-    font-family: 'cairo';
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 body{
     background-image: url(imgs/body.png);
