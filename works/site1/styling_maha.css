@@ -11,8 +11,8 @@
 
 }
 body{
-    background-image: url(imgs/body.png);
-    background-size: cover;
+    background:  url(imgs/body.png) no-repeat center center;
+background-size: cover;
 }
 .navbar-nav .nav-link{
     border-radius:20px ;
