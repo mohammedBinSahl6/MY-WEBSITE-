@@ -62,7 +62,7 @@ nav .rounded-pill{
 .MYNAME{
     font-weight: 700;
    
-    background: -webkit-linear-gradient(  45deg,#3386e9, #6feceb);
+    background: -webkit-linear-gradient(  45deg,black, grey);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
@@ -86,21 +86,28 @@ nav .rounded-pill{
 #about  h1 {
     color: white;
 }
-/*footer styling*/
+/*footer styling ----FOOTER FOOTER FOOTER*/
 
-.footer{
-    background-color: var(--color1--);
- 
-}
+
 .so-media i{
-    color: white;
+    color: black;
     transition: 0.4s;
-    font-size: 6vh;
+    font-size: 3vh;
 }
 .so-media i:hover{
-    color: var(--color2--);
+    color: white;
 }
 
+.so-media{
+    display: block;
+    text-align: center;
+}
+.footer .btn-contact{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 
 /* WORKS PAGE STYLING -----------------------------------------------------------------*/
 
