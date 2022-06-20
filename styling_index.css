@@ -26,6 +26,18 @@ p{
     transition: 0.4s;
    
 }
+/* alerts */
+
+.pro-alert{
+   position: fixed;
+   top: 50%;
+
+}
+.pro-alert .porto-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
 
 /* navbar */
 nav .rounded-pill{
@@ -37,8 +49,8 @@ nav .rounded-pill{
 
 /* style the picture section */
 .oics{
-    background-image: url(imgs/coding_bg_grey.jpg);
-    background-size: cover;
+    
+  border: solid 1px grey;  
 }
 
 .oics h2 , .oics h1 , .oics p{
@@ -165,7 +177,10 @@ font-weight: 500;
 
 /* style info place */
 
-
+.head-topics{
+    color: white;
+    font-weight: 500;
+}
 
 .info-web h1{
     font-weight: 600;
@@ -194,4 +209,17 @@ font-weight: 500;
 
     font-size: 3vh;
 
+}
+
+/* CONTACT MODAL HERE */
+
+.modal-header{
+    background-color: black;
+}
+.modal-body{
+    background-image: linear-gradient(black,white);
+
+}
+.modal-title , .modal .form-label{
+    color: white;
 }
