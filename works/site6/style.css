@@ -17,7 +17,7 @@ body{
  .opr{/* opreator select style */
     width: 7vh;
     height: 7vh;
-    font-size: 5vh;
+    font-size: 3vh;
     border-radius: 7vh;
     text-align: center;
 }
@@ -45,4 +45,8 @@ body{
 .footer i:hover{
     color: #4286f4;
     font-size: 6vh;
+}
+
+.task-input{
+    background-color: white;
 }
