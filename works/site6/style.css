@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald:wght@300&family=Stardos+Stencil&display=swap');
+
+:root{
+    --c1--:#373B44;
+    --c2--:#4286f4;
+}
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-image:linear-gradient(to right , var(--c1--),var(--c2--));
+}
+
+
+/* calculater style */
+ .opr{/* opreator select style */
+    width: 7vh;
+    height: 7vh;
+    font-size: 5vh;
+    border-radius: 7vh;
+    text-align: center;
+}
+
+.head-c , .head-t {
+    color: white;
+    font-weight: 600;
+}
+.head-c i , .head-t i{
+    margin-right: 2vh;
+}
+
+.footer{
+    background-color: white;
+
+}
+.footer i {
+    color: #373B44;
+    font-size: 4vh;
+    transition: 0.4s
+}
+.footer .ab{
+    text-align: center;
+}
+.footer i:hover{
+    color: #4286f4;
+    font-size: 6vh;
+}
