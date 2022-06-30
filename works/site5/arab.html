@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,22 +12,27 @@
    <script src="angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <link rel="icon" href="icon.png">
+<style>
+    *{
+        font-family: cairo;
+    }
+</style>
 </head>
-<body ng-app="calcApp">
-    <a href="arab.html" class="btn btn-danger">العربية</a>
+<body ng-app="calcApp" >
+    <a href="index.html" class="btn btn-danger">engilsh</a>
     <div class="container mt-5 p-3" ng-controller="calc">
         <div class="row">
             <h1 class="display-5 result" ng-model="r">{{r}}</h1>
         </div>
         <div class="row">
             <div class="col">
-                <button class="btns" ng-click="one();" type="button">1</button>
+                <button class="btns" ng-click="one();" type="button">١</button>
             </div>
             <div class="col">
-                <button class="btns"  ng-click="two();" type="button">2</button>
+                <button class="btns"  ng-click="two();" type="button">٢</button>
             </div>
             <div class="col">
-                <button class="btns"  ng-click="three();" type="button">3</button>
+                <button class="btns"  ng-click="three();" type="button">٣</button>
             </div>
             <div class="col">
                 <button class="btns"  ng-click="pls();" type="button">+</button>
@@ -36,13 +41,13 @@
 
         <div class="row">
             <div class="col">
-                <button class="btns" ng-click="four();" type="button">4</button>
+                <button class="btns" ng-click="four();" type="button">٤</button>
             </div>
             <div class="col">
-                <button class="btns" ng-click="five();" type="button">5</button>
+                <button class="btns" ng-click="five();" type="button">٥</button>
             </div>
             <div class="col">
-                <button class="btns" ng-click="six();" type="button">6</button>
+                <button class="btns" ng-click="six();" type="button">٦</button>
             </div>
             <div class="col">
                 <button class="btns" ng-click="mins();" type="button">-</button>
@@ -51,13 +56,13 @@
 
         <div class="row">
             <div class="col">
-                <button class="btns" ng-click="seven();" type="button">7</button>
+                <button class="btns" ng-click="seven();" type="button">٧</button>
             </div>
             <div class="col">
-                <button class="btns" ng-click="eight();" type="button">8</button>
+                <button class="btns" ng-click="eight();" type="button">٨</button>
             </div>
             <div class="col">
-                <button class="btns" ng-click="nine();" type="button">9</button>
+                <button class="btns" ng-click="nine();" type="button">٩</button>
             </div>
             <div class="col">
                 <button class="btns" ng-click="multi();" type="button">x</button>
@@ -69,7 +74,7 @@
                 <button class="btns" ng-click="divi();" type="button">/</button>
             </div>
             <div class="col">
-                <button class="btns" ng-click="zero();" type="button">0</button>
+                <button class="btns" ng-click="zero();" type="button">٠</button>
             </div>
             <div class="col">
                 <button class="btns" ng-click="dot();" type="button">.</button>
@@ -79,17 +84,17 @@
             </div>
         </div>
         <div class="row">
-            <button class="del mt-3" ng-click="del();" type="button">DELETE</button>
+            <button class="del mt-3" ng-click="del();" type="button">امسح</button>
         </div>
 <br>
 <br>
 
         <div class="row">
-            <h3 class="h3 text-center head-age">WRITE YOUR AGE</h3>
-            <button class="age" type="button" ng-click="calc_age();">CALCULATE YOUR AGE</button>
+            <h3 class="h3 text-center head-age">اكتب عمرك فوق بالسنين</h3>
+            <button class="age" type="button" ng-click="calc_age();">احسب عمرك</button>
         </div>
         <br>
-        <div class="row age1">
+        <div class="row age1" dir="rtl">
             <h2 class="h2" ng-model="ageplace">{{ageplace}}</h2>
         </div>
     </div>
@@ -110,6 +115,6 @@
 </footer>
 
 
-    <script src="app.js"></script>
+    <script src="app.arab.js"></script>
 </body>
 </html>

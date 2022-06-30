@@ -1,21 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Stardos+Stencil&display=swap');
-
-*{
-    font-family: 'Dosis', sans-serif;
-
+:root{
+    --c1--:#333333;
+    --c2--:#dd1818;
 }
+
+
 body{
-    background:  url(imgs/body.jpg) ;
-    background-size: cover;
+    background:linear-gradient(to right , var(--c1--), var(--c2--));
 }
 
-.landing{
-    height: 100vh;
+.result{
+    background: white;
+    height: 6vh;
 }
-.pizza-head{
-    width: 45vh;
-    box-shadow: 3px 5px 5px #111
+
+.btns {
+    border: white 1px solid;
+    border-radius: 0;
+    width: 8vh;
+    height: 8vh;
+    background: transparent;
+    box-shadow: #000 2px 1px 3px;
+    color: white;
+    font-size: 4vh;
+    transition: 0.3s;
+    margin: 2px!important;
 }
-.brand{
-    width:100px;
+.btns:hover{
+    background-color: white;
+    color: #dd1818;
+}
+
+.del{
+    height: 5vh;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 3vh;
+    transition: 0.3s;
+}
+
+.del:hover{
+    background-color: #dd1818;
+    color: #333333;
+}
+
+.head-age{
+    color: white;
+}
+.age{
+
+    
+    background: white;
+    border: white solid;
+    color: black;
+    font-size: 3vh;
+
+}
+
+.age1{
+
+background-color: white;
+height: auto;
 }

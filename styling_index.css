@@ -31,6 +31,7 @@ p{
 .pro-alert{
    position: fixed;
    top: 50%;
+   width: 30vh;
 
 }
 .pro-alert .porto-link{

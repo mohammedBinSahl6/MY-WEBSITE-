@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Stardos+Stencil&display=swap');
+
+*{
+    font-family: 'Dosis', sans-serif;
+
+}
+body{
+    background:  url(imgs/body.jpg) ;
+    background-size: cover;
+}
+
+.landing{
+    height: 100vh;
+}
+.pizza-head{
+    width: 45vh;
+    box-shadow: 3px 5px 5px #111
+}
+.brand{
+    width:100px;
+}

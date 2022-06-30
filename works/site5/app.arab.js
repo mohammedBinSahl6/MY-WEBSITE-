@@ -69,16 +69,16 @@
             var seconds = minutes * 60;
             var birth_age = 2022 - $scope.r;
 
-            var result = `your age is :\n
-            ${months} months .\n
-            ${days} days .\n
-            ${hours} hours . \n
-            ${minutes} minutes . \n
-            ${seconds} seconds . 
-            and your birth year is : ${birth_age} `
+            var result = `عمرك هو:\n
+            ${months} شهر .\n
+            ${days} يوم .\n
+            ${hours} ساعة . \n
+            ${minutes} دقيقة . \n
+            ${seconds} ثانية . 
+            و سنة ميلادك هي : ${birth_age} `
 
            if ($scope.r ===''){
-            return $scope.ageplace =   'error , there is no age number . example(32)'
+            return $scope.ageplace =   'عفوا  ادخل رقم لانه مفيش حاجة'
            }
           
            else{
