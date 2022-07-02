@@ -22,6 +22,10 @@ $('.btn3').click(function(){
     $('.p3').css('display','block')
 })
 
+// $('.work-card').click(function(){
+//     $('.info-place').css('opacity',"1");
+// })
+
 
 
 

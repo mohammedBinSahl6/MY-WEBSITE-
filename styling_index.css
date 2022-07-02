@@ -66,7 +66,9 @@ nav .rounded-pill{
 
 
 /* styling the about headers and about body*/
-
+.mine{
+    width: 30vh;
+}
 .WEB-DEV{
     color: black;
     font-weight: 700;
@@ -98,6 +100,23 @@ nav .rounded-pill{
 }
 #about  h1 {
     color: white;
+}
+
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 13vh;
+    margin: 4vh;
+}
+
+.logo-skill{
+    width:  9vh;
+}
+.skill h4{
+    font-size: 6vh;
 }
 /*footer styling ----FOOTER FOOTER FOOTER*/
 
@@ -138,9 +157,40 @@ nav .rounded-pill{
       background-color: white;
   }
 
-  .card-img-top{
-    width: 32vh;
+  .work-card{
+    background-size: cover;
+    width: 38vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: 0.5s;
+  }
 
+  .info-place{
+    background: white;
+    height: 50%;
+    width: 38vh;
+    transition: 0.5s;
+    opacity: 0;
+
+  }
+
+  .work-card:hover .info-place{
+    opacity: 1;
+  }
+  .title-work{
+    font-size: 5vh;
+    color: black;
+  }
+  .info-p{
+    font-size: 2vh;
+    margin: 4vh 0;
+
+  }
+
+  .visit-btn{
+    background-color: #6feceb;
   }
 
 
@@ -185,6 +235,10 @@ font-weight: 500;
 .head-topics{
     color: white;
     font-weight: 500;
+}
+
+.info-web{
+    border: 2px solid;
 }
 
 .info-web h1{
