@@ -64,6 +64,55 @@ nav .rounded-pill{
 
 
 
+/* loading page style start from here------------ */
+
+#loader{background: var(--color1--);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinner{
+    width: 25vh;
+    height: 25vh;
+    border: 2vh dashed;
+    border-radius: 32vh;
+    
+    position: fixed;
+    transform: translate(50%, 50%);
+    animation: spin linear 4s infinite ;
+    transition: 0.4s;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+        transform: rotateX(0);
+
+    }
+    to{
+        transform: rotate(360deg);
+        transform: rotateX(360deg);
+    }
+}
+#spinner2{
+    animation: spin2 infinite 4s linear;
+    width: 15vh;
+    height: 15vh;
+    border: 2vh dashed;
+    border-radius: 20vh;
+    position: fixed;
+}
+@keyframes spin2{
+    from{transform: rotateY(0deg);}
+    to{transform: rotateY(360deg);}
+}
+/* loading page end here------------ */
+
+
 
 /* styling the about headers and about body*/
 .mine{
@@ -153,8 +202,15 @@ nav .rounded-pill{
 
  
   
-  .head{
+  .head-works{
       background-color: white;
+  }
+  .head-works .col{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .work-card{
