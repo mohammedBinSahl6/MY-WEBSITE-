@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Patua+One&family=Share+Tech+Mono&display=swap');
+
 :root{
     --c1--: #ffc802;
     --c2-- :#8dad2d;
@@ -7,11 +9,19 @@
     background-color: #8dad2d;
     color: brown;
 }
+*{
+    font-family: 'Patua One', cursive;
+
+}
+
+body{
+    background: radial-gradient(var(--c1--),var(--c2--));
+}
 
 /*navbar styling*/
 
 nav {
-    background-color: var(--c2--);
+    background-color: white;
 }
 
 nav a , nav .navbar-brand , nav .navbar-toggler .navbar-toggler-icon  {
@@ -19,16 +29,29 @@ nav a , nav .navbar-brand , nav .navbar-toggler .navbar-toggler-icon  {
     color: black;
 }
 .navbar-nav .nav-link{
-    color: white;
+    color: black;
 }
+
+/* style the carosel */
+.d-block{
+    width: 100%;
+}
+.cont-carusel{
+    justify-content: center;
+}
+.carousel{
+    width: 100vh;
+}
+
+
 
 /*styling the about section*/
 
 .about{
     border-radius: 4px;
 
-    background-color: #8dad2d;
-    box-shadow: brown 3px 2px 5px;
+    background-color: white;
+    box-shadow: black 3px 2px 5px;
 }
 .about-p{
     font-size: 2vh;
@@ -46,25 +69,53 @@ nav a , nav .navbar-brand , nav .navbar-toggler .navbar-toggler-icon  {
 
 }
 
+.offcanvas .list-group-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 3v 0;
+}
+
 
 /*visit page---------------------------------------------*/
 
 #visit-head{
     font-weight: 900;
-    background: -webkit-linear-gradient(  45deg,var(--c1--),var(--c2--));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+color: aliceblue;}
 
 
 
 /*footer*/
-.footer{
-    background-color: #8dad2d;
 
-}
-.footer i {
-    font-size: 8vh;
+.footer .rating i {
+    font-size: 3vh;
     color: white;
+    transform: translateX(2vh);
+}
+
+.footer .social i{
+    font-size: 6vh;
+    color: white;
+    transform: translateX(4vh);
+}
+.footer .form-control{
+    font-size: 2vh;
+}
+.rate-btn{
+    background-color: #ffc802;
+}
+.message-rate{
+    position: fixed;
+    display: flex;
+    background: #ffc802;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 11px 16px 20px;
+    transition: 0.7s;
+    opacity: 0;
+    width: 80%;
+    height: 30%;
+    margin: 5% auto;
+    padding: 10px;
 }
 
