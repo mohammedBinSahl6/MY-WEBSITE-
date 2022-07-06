@@ -75,6 +75,10 @@ nav a , nav .navbar-brand , nav .navbar-toggler .navbar-toggler-icon  {
     margin: 3v 0;
 }
 
+nav .btn i{
+    color: #8dad2d;
+    font-size: 5vh;
+}
 
 /*visit page---------------------------------------------*/
 
