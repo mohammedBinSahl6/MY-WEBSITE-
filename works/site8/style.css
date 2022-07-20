@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+.phone-img{
+    width: 80%;
+}
+
+.price{
+    color: #462e0f;
+    font-size: 3vh;
+}
+
+.bb{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.footer .pro{
+    line-height: 3;
+}

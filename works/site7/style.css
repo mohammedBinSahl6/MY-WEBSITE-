@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root{
+    --cg--:#33FF00;
+    --cp--:#CC00FF;
+    --cv:#9900Ff;
+    --cy--:#E6FB04;
+    --cb--:#00FFFF;
+
+}
+*{
+     font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color:#060621;
+}
+
+nav {
+    background-color: #02020e;
+}
+
+.navbar-brand i{
+    color: var(--cy--);
+}
+.navbar-brand span:first-of-type{
+    color: var(--cb--);
+
+}
+.navbar-brand span:last-child{
+    color: var(--cg--);
+}
+
+.navbar-brand i ,.navbar-brand span{
+    font-size: 8vh;
+}
+
+#cart{
+    font-size: 5vh;
+    color:var(--cb--);
+
+}
+.land .head{
+    position:absolute;
+   color: white;
+   
+}
+.discription{
+    position: absolute;
+    transform: translateY(100px);
+    color: white;
+}
+.land .img-1{
+    height: auto;
+}
+.land .i1 {
+    background-image: url(imgs/land-h-games.jpg)!important;
+    background-size: cover!important;
+    height: 50vh;
+    
+
+}
+.land  .i2{
+    background-image: url(imgs/land-h-lap.jpg);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.land .text-1{
+    color: white;
+    font-size: 4vh;
+    text-transform: capitalize;
+    transform: translateY(56px);
+}
+
+.shop-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.6s!important;
+    position:absolute ;
+    /* transform: translateX(56px); */
+    top: 91%;
+
+}
+.shop-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* BEST SALES STYLING  */
+
+.head-show{
+    color: white;
+}
+ 
+.best-sales p{
+    color: var(--cb--);
+}
+.best-sales i{
+    color: var(--cy--);
+}
+
+.body-com{
+    background-color: transparent;
+}
+
+.footer a:not(.navbar-brand){
+    color: var(--cp--);
+    transition: 0.4s;
+
+}
+.footer a:not(.navbar-brand):hover{
+    color: var(--cb--);
+}
+.footer h4{
+    color: white;
+}
+.footer2{
+    background-color: #02020e;
+}
+
+
+/* ---------------shop page ----------------------------------------- */
+
+.colp{
+    justify-content: center;
+    display: grid;
+}
+.p-bar{
+    display: flex;
+    justify-content: center;
+}
+.p-bar i{
+    margin: 0px 3vh;
+    font-size: 4vh;
+    color:var(--cb--);
+    transition: 0.3s;
+}
+
+.hidden{
+    display: none;
+}
+.product{
+    width:30vh;
+    height: 45vh;
+    position: relative;
+    
+    /* border-bottom-color: var(--cb--);
+    border-top-color: var(--cg--);
+    border-left-color: var(--cp--);
+    border-right-color: var(--cy--);*/
+    box-shadow:
+     15px 0 40px var(--cb--),
+    -15px 0 40px var(--cy--),
+    0 15px 40px var(--cv),
+    0 -15px 40px var(--cg--);
+    
+    display: block;
+    background-color: transparent;
+    transform: translateX(18px);
+    
+}
+.product-img{
+    width: 100%;
+    position: inherit;
+    height: auto;
+    
+}
+.product .p-name{
+    color: white;
+    padding: 8px;
+    letter-spacing: 2px;
+    font-size: 3vh;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.price{
+    color: var(--cg--);
+    padding: 12px;
+    font-size: 3vh;
+}
+
+.adder:active , .like:active{
+    font-size: 8vh;
+}
+#CART{
+    color: white;
+}
+.modal-header , .cart-body, .modal-footer{
+    background-color:#02020e ;
+    
+}
+.modal-footer{
+    box-shadow:10px 20px 30px #33FF00;
+}
+.cart-body .img-cart{
+    width: 20vh;
+}
+.cart-img .p-name{
+    font-size: 3vh;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.cart-body .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vh;
+}
+
+
+.btn-minus , .btn-plus{
+    border: none;
+    font-size: 5vh;
+    background: transparent;
+    margin: 0 3vh;
+
+}
+.btn-close{
+    color: #00FFFF;
+}
+.sum-price{
+    color: #00FFFF;
+}
+
+
+/* -----------details page----------- */
+
+.about .aa h1{
+    color: var(--cp--);
+}
+.aa p{
+    color: white;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Edu+VIC+WA+NT+Beginner&family=Patua+One&family=Share+Tech+Mono&display=swap');
+
+:root{
+    --c1--:#603813;
+    --c2--:#b29f94;
+}
+p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+nav {
+    background-color: #603813;
+}
+nav a {
+    color :white
+}
+body{
+    background-color: #b29f94;
+}
+.head{
+    color: white;
+    font-weight: 700;
+    margin-bottom:10vh;
+    transition: 0.5s;
+    animation: ff linear  4s;
+}
+
+
+.card{
+    width : 30vh;
+    height: 55vh;
+    background-color: #b29f94;
+    border: #222 solid 2px;
+    perspective: 300px;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-face , .card-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-face{
+    background-image: url(imgs/product.jpg);
+    background-size: cover;
+
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+.card-info{
+    background:linear-gradient(45deg, var(--c1--),var(--c2--));
+    background-size: cover;
+    
+
+    transform: rotateY(180deg);
+    display: block;
+    padding: 2vh;
+    
+}
+
+
+.card-info i{
+    font-size: 5vh;
+    color: #fff;
+    
+    filter: none;
+    transition: 0.4s;
+    top:85%;
+    position: absolute;
+}
+.card-info h3 ,.card-info p ,.card .price{
+    color: white;
+    
+}
+ .fa-heart:active{
+    color: rgb(165, 30, 30);
+    font-size: 9vh;
+}
+.like.active{
+    color: rgb(165, 30, 30);
+}
+.fa-cart-shopping:active{
+    font-size: 9vh;
+    color: black;
+}
+.row-items{
+    justify-content: center;
+    display: flex;
+}
+.colx{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #603813;
+    color: white;
+}
+footer a{
+    color: white !important;;
+    padding: 0 50%;
+    font-size: 3vh;
+    transition: 0.4s;
+
+}
+footer i:hover{
+    color: #b29f94;
+
+}
+footer i{
+    transition: 0.5s;
+}
+
+
+footer .col-4:first-child{
+    justify-content: flex-end;
+}
+footer .ss{
+    display: block;
+    justify-content: center;
+}
+
+
+/* styling the cart */
+
+.btn-plus , .btn-minus{
+    border: none;
+    font-size: 3vh;
+}
+.hidden{
+    display: none;
+}
