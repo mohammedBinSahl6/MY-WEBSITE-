@@ -61,8 +61,6 @@ nav {
 
 }
 .land  .i2{
-    background-image: url(imgs/land-h-lap.jpg);
-    background-size: cover;
     height: 50vh;
     position: relative;
     display: flex;

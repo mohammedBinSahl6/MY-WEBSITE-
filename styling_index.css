@@ -32,12 +32,17 @@ p{
    position: fixed;
    top: 50%;
    width: 30vh;
+   
 
 }
 .pro-alert .porto-link{
     text-decoration: none;
     color: black;
     font-weight: 300;
+}
+
+.carousel-control-prev-icon , .carousel-control-prev-icon{
+    color: black;
 }
 
 /* navbar */
@@ -47,7 +52,12 @@ nav .rounded-pill{
 
 }
 
-
+nav i{
+    padding-right: 10px;
+}
+nav .nav-item{
+    margin: 5px;
+}
 /* style the picture section */
 .oics{
     
@@ -66,7 +76,7 @@ nav .rounded-pill{
 
 /* loading page style start from here------------ */
 
-#loader{background: var(--color1--);
+#loader{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -79,36 +89,41 @@ nav .rounded-pill{
 #spinner{
     width: 25vh;
     height: 25vh;
-    border: 2vh dashed;
+    border: 2vh solid;
     border-radius: 32vh;
-    
+    border-bottom: none;
+    border-left: none;
     position: fixed;
     transform: translate(50%, 50%);
-    animation: spin linear 4s infinite ;
+    animation: spin linear 3s infinite ;
     transition: 0.4s;
+    box-shadow: 10px 10px 20px var(--color2--);
 }
 @keyframes spin{
     from{
         transform: rotate(0deg);
-        transform: rotateX(0);
+       
 
     }
     to{
         transform: rotate(360deg);
-        transform: rotateX(360deg);
+       
     }
 }
 #spinner2{
-    animation: spin2 infinite 4s linear;
+    animation: spin2 infinite 3s linear;
     width: 15vh;
     height: 15vh;
-    border: 2vh dashed;
+    border: 2vh solid;
     border-radius: 20vh;
     position: fixed;
+    border-right: none;
+    border-top: none;
+    box-shadow: -10px -10px 20px black;
 }
 @keyframes spin2{
-    from{transform: rotateY(0deg);}
-    to{transform: rotateY(360deg);}
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
 }
 /* loading page end here------------ */
 
@@ -117,6 +132,8 @@ nav .rounded-pill{
 /* styling the about headers and about body*/
 .mine{
     width: 30vh;
+    box-shadow: 4px 4px 10px;
+    padding: 0;
 }
 .WEB-DEV{
     color: black;
@@ -221,6 +238,8 @@ nav .rounded-pill{
     justify-content: center;
     align-items: end;
     transition: 0.5s;
+    box-shadow: 7px 5px 20px;
+    border: 2px solid;
   }
 
   .info-place{
@@ -236,12 +255,12 @@ nav .rounded-pill{
     opacity: 1;
   }
   .title-work{
-    font-size: 5vh;
+    font-size: 4vh;
     color: black;
   }
   .info-p{
     font-size: 2vh;
-    margin: 4vh 0;
+    margin: 2vh 0;
 
   }
 
@@ -328,13 +347,3 @@ font-weight: 500;
 
 /* CONTACT MODAL HERE */
 
-.modal-header{
-    background-color: black;
-}
-.modal-body{
-    background-image: linear-gradient(black,white);
-
-}
-.modal-title , .modal .form-label{
-    color: white;
-}
