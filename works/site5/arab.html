@@ -22,8 +22,11 @@
     <a href="index.html" class="btn btn-danger">engilsh</a>
     <div class="container mt-5 p-3" ng-controller="calc">
         <div class="row">
-            <h1 class="display-5 result" ng-model="r">{{r}}</h1>
+           <div class="body-res m-3">
+                <h1 class="display-5 result alert" ng-model="r">{{r}}</h1>
+           </div>
         </div>
+       <div class="buttons">
         <div class="row">
             <div class="col">
                 <button class="btns" ng-click="one();" type="button">١</button>
@@ -83,6 +86,7 @@
                 <button class="btns" ng-click="calcit();" type="button">=</button>
             </div>
         </div>
+       </div>
         <div class="row">
             <button class="del mt-3" ng-click="del();" type="button">امسح</button>
         </div>

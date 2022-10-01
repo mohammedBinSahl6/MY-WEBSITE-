@@ -244,7 +244,7 @@ nav .nav-item{
 
   .info-place{
     background: white;
-    height: 50%;
+    max-height: 50%;
     width: 38vh;
     transition: 0.5s;
     opacity: 0;
@@ -255,7 +255,7 @@ nav .nav-item{
     opacity: 1;
   }
   .title-work{
-    font-size: 4vh;
+    font-size: 1em;
     color: black;
   }
   .info-p{

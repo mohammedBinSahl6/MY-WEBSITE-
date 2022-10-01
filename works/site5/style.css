@@ -8,16 +8,33 @@ body{
     background:linear-gradient(to right , var(--c1--), var(--c2--));
 }
 
+.buttons{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
 .result{
+    max-width: 100%!important;
+    font-size: 150%!important;
+    position: absolute;
+    font-weight: 700!important;
+    letter-spacing: 5px;
+}
+.body-res{
     background: white;
-    height: 6vh;
+    max-height: fit-content;
+    max-width: 93%!important;
+    overflow:scroll;
+    position: relative;
+    display: flex;
 }
 
 .btns {
     border: white 1px solid;
     border-radius: 0;
-    width: 8vh;
-    height: 8vh;
+    width: 100%;
+    height: 100%;
     background: transparent;
     box-shadow: #000 2px 1px 3px;
     color: white;
@@ -25,7 +42,7 @@ body{
     transition: 0.3s;
     margin: 2px!important;
 }
-.btns:hover{
+.btns:active{
     background-color: white;
     color: #dd1818;
 }
@@ -39,13 +56,24 @@ body{
     transition: 0.3s;
 }
 
-.del:hover{
+.del:active{
     background-color: #dd1818;
     color: #333333;
 }
 
 .head-age{
     color: white;
+}
+
+.col{
+    flex: 1 0 0%;
+    height: 10vh;
+    max-width: 32vh!important;
+
+}
+.buttons .row{
+    display: flex!important;
+    justify-content: center;
 }
 .age{
 
