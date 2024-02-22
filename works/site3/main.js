@@ -1,25 +1,20 @@
-$(document).ready(function(){
-    //show more
+const detailsSections = [
+  ...document.getElementsByClassName("details__section"),
+];
 
-    $('#btn-1').click(function(){
-        $('.imgs').fadeToggle();
-        $('.imgs').css('display','flex');
-    })
-
-    $('#btn-2').click(function(){
-        $('.imgs2').fadeToggle();
-        $('.imgs2').css('display','flex');
-    })
-
-    $('#btn-3').click(function(){
-        $('.imgs3').fadeToggle();
-        $('.imgs3').css('display','flex');
-    })
-
-
-
-
-
-
-
-})
+detailsSections.forEach((section) => {
+  const moreDetailsbutton = section.querySelector(".btn-light");
+  const infoSection = section.querySelector(".details__info");
+  let isOpen = false;
+  moreDetailsbutton.addEventListener("click", () => {
+    if (!isOpen) {
+      infoSection.classList.add("details__info--show");
+      moreDetailsbutton.textContent = "Less Details";
+      isOpen = true;
+    } else {
+      infoSection.classList.remove("details__info--show");
+      moreDetailsbutton.textContent = "More Details";
+      isOpen = false;
+    }
+  });
+});
